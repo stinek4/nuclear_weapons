@@ -1,0 +1,26 @@
+.txt{
+    font-size: 2rem;
+    margin: 1.5rem 5%;
+    max-width: 800px;  
+    background-color: rgba(181, 198, 196, 0.906);
+    padding: 1rem;
+    text-align: left;
+}
+
+.txt h2{
+    font-size: 3rem;
+}
+
+.txt h3{
+    margin: 0 0 1rem 0;
+}
+
+.txt p{
+    color: #4d4d4d;
+}
+
+.array content{
+    background-color: rgba(51, 51, 51, 0.386);
+    margin: auto;
+    padding: 0;
+}

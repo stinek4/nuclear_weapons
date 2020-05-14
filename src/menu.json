@@ -1,0 +1,37 @@
+[
+    {"name": "Hva er atomvåpen?",
+        "url": "/Menu",
+        "component": "HvaErNW", 
+        "path": "/HvaErNW", 
+        "image": "http://www.handmadeinhell.com/nta/wp-content/uploads/2019/02/Screenshot-2019-02-03-12.23.27-red.jpg"},
+    
+    {"name": "Humanitære konsekvenser",
+        "component": "Humanitarian", 
+        "url": "/Menu",
+        "path": "/Humanitarian",
+        "image": "data:image/jpeg;base64,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"},
+    
+    {"name": "Hva koster atomvåpen?", 
+        "url": "/Menu",
+        "component": "NWCost",
+        "path": "/NWCost",  
+        "image": "https://scontent.fosl4-2.fna.fbcdn.net/v/t1.0-9/s960x960/96722240_2903722103046242_1744109433480282112_o.jpg?_nc_cat=109&_nc_sid=e007fa&_nc_ohc=Mzqt32qB86EAX_oj3rx&_nc_ht=scontent.fosl4-2.fna&_nc_tp=7&oh=68f36c54ebd3175b5a230abf86898d9e&oe=5EDC74C6"},
+    
+    {"name": "ICAN Cities Appeal", 
+        "url": "/Menu",
+        "component": "CitiesAppeal",
+        "path": "/CitiesAppeal",  
+        "image": "https://scontent.fosl4-1.fna.fbcdn.net/v/t1.0-9/s960x960/97004707_2903895989695520_6387832377472712704_o.jpg?_nc_cat=103&_nc_sid=e007fa&_nc_ohc=volXaRQoXysAX8d79iZ&_nc_ht=scontent.fosl4-1.fna&_nc_tp=7&oh=a77b816a036cc5d88eaa943db6815448&oe=5EDF12C1"},
+    
+    {"name": "Atomvåpen og klima", 
+        "url": "/Menu",
+        "component": "Climate", 
+        "path": "/Climate",  
+        "image": "https://scontent.fosl4-1.fna.fbcdn.net/v/t1.0-9/96290180_2903917696360016_6898595042273787904_n.jpg?_nc_cat=111&_nc_sid=e007fa&_nc_ohc=qLfuy7XU78UAX_REdYE&_nc_ht=scontent.fosl4-1.fna&oh=f996f636f29e7716ceb43a9ae16230ba&oe=5EDE5607"},
+    
+    {"name": "FNs atomvåpenforbud", 
+        "url": "/Menu",
+        "component": "FNforbud", 
+        "path": "/FNforbud",  
+        "image": "https://scontent.fosl4-2.fna.fbcdn.net/v/t1.0-9/s960x960/96560241_2903717149713404_9145551679037374464_o.jpg?_nc_cat=101&_nc_sid=e007fa&_nc_ohc=IPuwoC1w7_oAX-9jXPm&_nc_ht=scontent.fosl4-2.fna&_nc_tp=7&oh=2d4588bf59dbe38c38d5d71171aaa798&oe=5EDDF4D0"}
+]

@@ -1,0 +1,28 @@
+*{
+    font-size: 62.5%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .TPNW {
+    font-family: 'Helvetica Neue';
+    width: 100vw;
+  
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(1, 1fr);
+  
+    margin-top: 8rem;
+    
+  }
+  
+  .TPNW h1{
+    font-size: 5rem;
+    margin: 1.5rem 5%;
+  }
+  
+  .TPNW img{
+    width: 100vw;
+    position: fixed;
+    z-index: -2;
+  }
