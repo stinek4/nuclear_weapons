@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*{
+    font-size: 62.5%;
+    padding: 0;
+    margin: 0;
+    z-index: 2;
+}
+
+
+.NWCost {
+    font-family: 'Helvetica Neue';
+    max-width: 100vw;
+
+  
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(1, 1fr);
+  
+    margin-top: 2rem;
+    
+    z-index: 1;
+}
+
+.fpCost{
+    max-width: 100vw;
+    height: 30vh;
+    background-color:rgba(250, 250, 250, 0.7);
+    box-shadow: 0.5px -10px 90px 10px #FFF;
+    display: grid;
+    place-items: center;
+}
+
+.fpCost h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 9rem;
+    padding-bottom: 20rem;
+    margin: auto;
+    top: 30rem;
+    color: rgb(29, 46, 31);
+}
+
+.CostTopp{
+    margin: 1rem 5%;
+    padding: 1rem 5%;
+    margin-top: 50rem;
+    max-width: 100vw;
+
+    display: grid;
+    place-items: center;
+    gap: 3rem;
+    grid-template-columns: repeat(2, 2fr);
+
+    background-color:rgba(250, 250, 250, 0.7);
+    box-shadow: 0.5px -10px 90px 10px #FFF;
+}
+.CostTopp span{
+    font-size: 9rem;
+    max-width: 100vw;
+    font-weight: 800;
+    display: grid;
+    place-items: center;
+    gap: 3rem;
+    grid-template-columns: repeat(2, 2fr);
+
+    background-color:rgba(250, 250, 250, 0.7);
+    box-shadow: 0.5px -10px 90px 10px #FFF;
+}
+.CostTop{
+    margin: 1rem 5%;
+    padding: 1rem 5%;
+    margin-top: 50rem;
+    max-width: 100vw;
+
+    display: grid;
+    place-items: center;
+    gap: 3rem;
+    grid-template-columns: repeat(2, 2fr);
+
+    background-color:rgba(250, 250, 250, 0.7);
+    box-shadow: 0.5px -10px 90px 10px #FFF;
+}
+
+.NWCost h3{
+    font-size: 4rem;
+    padding: 2rem;
+
+}
+
+.CostTop h3{
+    font-size: 3rem;
+}
+
+.NWCost a{
+    font-size: 4rem;
+    text-decoration: underline;
+    color: black;
+
+}
+
+.NWCost i{
+    font-size: 2rem;
+    font-style: italic;
+    padding-bottom: 2rem;
+    text-align: justify;
+}
+
+#coins{
+    width: 15rem;
+}
+
+.NWCost h2{
+    font-size: 4rem;
+    padding-bottom: 1rem;
+    margin-top: -4rem;
+}
+
+.moneyPit{
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+    top: -1rem;
+    opacity: 0.1;
+    z-index: 0;
+}

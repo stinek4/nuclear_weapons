@@ -7,8 +7,8 @@ const ContentAvtalen = (props) => {
 
     return(
         <div className="array">
-            <div className="txt">
-                <h2>{props.article}</h2>
+            <div data-aos="fade-up" data-aos-anchor="#TPNWarticle" className="txt">
+                <h2 id="TPNWarticle">{props.article}</h2>
                 <h3>{props.title}</h3>
                 <p>{props.text}</p>    
             </div>

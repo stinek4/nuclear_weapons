@@ -12,17 +12,49 @@
     place-items: center;
     grid-template-columns: repeat(1, 1fr);
   
-    margin-top: 8rem;
+    margin-top: 2rem;
     
   }
   
   .TPNW h1{
     font-size: 5rem;
-    margin: 1.5rem 5%;
+    /* margin: 1.5rem 5%; */
+    padding-bottom: 2rem;
+    z-index: 2;
   }
   
-  .TPNW img{
+  .bodyTPNW{
+    font-size: 1.5rem;
+    margin: 1.5rem 5%;
+
+    max-width: 55vw;
+    margin: auto;
+    z-index: 2;
+
+  }
+  
+  .one{
+    padding-bottom: 2rem;
+  }
+  .cranes{
     width: 100vw;
     position: fixed;
-    z-index: -2;
+    z-index: 1;
+  }
+
+  .homeButton{
+    width: 2vw;
+    background-color:  rgba(181, 198, 196, 0.906);
+    padding: 3rem;
+    border-radius: 100%;
+    margin: 2rem;
+    top: 5rem;
+    left: 10rem;
+    color: black;
+    position: fixed;
+  }
+
+  .homeButton:hover{
+    padding: 3.1rem;
+    background-color:  rgba(198, 215, 213, 0.906);
   }

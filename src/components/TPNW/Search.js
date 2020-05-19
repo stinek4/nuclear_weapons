@@ -20,8 +20,8 @@ const Search = () =>{
 
     return(
         <div className="search">
-            <input type="text" placeholder="Search in document..." onInput={filterTPNW} onChangeText={filterTPNW}/>
-            <div className="array content">
+            <input type="text" placeholder=" Søk i traktaten..." onInput={filterTPNW} onChangeText={filterTPNW}/>
+            <div id="arrayContent" className="array content">
             {
                 tpnw.map(
                     (t, i) =>

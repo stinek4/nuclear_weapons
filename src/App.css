@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
 *{
   font-size: 62.5%;
   padding: 0;
@@ -16,6 +18,8 @@
   justify-items: center;
 
   background-color: rgb(240, 240, 240);
+
+  z-index: 0;
 }
 
 
@@ -26,30 +30,32 @@
 
 .fp-top h1{
   font-size: 7vw;
+  font-family: 'Quicksand', sans-serif;
   text-align: center;
   padding-top: 4rem;
+  animation: comeDown ease-in both 1s ;
+  z-index: 2;
 }
 
-#fp-origami{
-  position: fixed;
-  width: 90vw;
-  top: -1rem;
-  z-index: 0;
-
+@keyframes comeDown{
+  0% {
+      opacity: 0;
+      transform: translateY(-2rem);
+  }
+  85%{
+      opacity: 1;
+  }
+  100%{
+      opacity: 1;
+      transform: scale(1);
+  }
 }
 
 .fp-menu{
   position: relative;
-  width: 80vw;
+  width: 100vw;
   height: 100%;
 
   justify-content: center;
   align-items: center;
-  padding-bottom: 20rem;
-}
-
-.fp-timeline{
-  width: 100%;
-  bottom: 0;
-  z-index: 10;
 }

@@ -1,0 +1,86 @@
+*{
+    font-size: 62.5%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .WINW {
+    font-family: 'Helvetica Neue';
+    width: 100vw;
+        
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(1, 1fr);
+
+    background-color: white;
+    
+  }
+  .WINWbody{
+    margin: auto;
+    max-width: 55vw;
+
+      
+    display: grid;
+    gap: 1rem;
+    place-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 6rem;
+  }
+
+  
+  .WINW h1{
+    font-size: 5rem;
+    margin: 1.5rem 5%;
+    padding-bottom: 2rem;
+    margin: auto;
+  }
+
+  .WINW h3{
+    font-size: 1.7rem;
+    font-style: italic;
+    padding-bottom: 2rem;
+    text-align: justify;
+  }
+
+  .WINWcard{
+    position: relative;
+  }
+
+  .WINW h2{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    margin-top: -4rem;
+
+  }
+
+  .WINWp{
+    padding-bottom: 1rem;
+    padding: 1rem;
+    font-size: 1.4rem;
+    background-color: rgba(101, 129, 186, 0.31);
+  }
+
+ .blueCrane{
+    position: relative;
+    width: 8vw;
+    left: -8rem;
+    top: 2rem;
+  }
+
+
+  .homeButton{
+    width: 2vw;
+    background-color: rgba(101, 129, 186, 0.31);
+    padding: 3rem;
+    border-radius: 100%;
+    margin: 2rem;
+    top: 2rem;
+    left: 1vw;
+    color: black;
+    position: fixed;
+  }
+
+  .homeButton:hover{
+    padding: 3.1rem;
+    background-color: rgba(124, 148, 196, 0.31);
+  }

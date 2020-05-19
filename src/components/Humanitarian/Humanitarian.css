@@ -1,0 +1,77 @@
+*{
+    font-size: 62.5%;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+  }
+
+  .human {
+    font-family: 'Helvetica Neue';
+    width: 100vw;
+  
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(1, 1fr);
+  
+    margin-top: 2rem;
+    
+    z-index: 1;
+  }
+
+  .ConBody{
+    margin: auto;
+    max-width: 55vw;
+
+      
+    display: grid;
+    gap: 1rem;
+    place-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 6rem;
+
+  }
+  
+  .human h1{
+    font-size: 5rem;
+    margin: 1.5rem 5%;
+    padding-bottom: 2rem;
+    margin: auto;
+  }
+
+  .human h3{
+    font-size: 2rem;
+    font-style: italic;
+    padding-bottom: 2rem;
+    text-align: justify;
+    color: rgb(223, 79, 79);
+  }
+
+  .human h2{
+    font-size: 4rem;
+    padding-bottom: 1rem;
+    margin-top: -4rem;
+    color: rgb(223, 79, 79);
+  }
+
+  .ConP{
+    padding-bottom: 1rem;
+    padding: 1rem;
+    font-size: 1.4rem;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .openHands{
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+    top: -10rem;
+    opacity: 0.05;
+    z-index: 0;
+  }
+
+  .cross{
+    position: relative;
+    width: 7vw;
+    left: -17rem;
+    top: 6rem;
+  }

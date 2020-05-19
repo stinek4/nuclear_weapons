@@ -1,37 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
 .menu{
     display: inline;
     justify-content: center;
 
+    z-index: -1;
 }
+
 .menuContent{
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-auto-rows: auto;
-    margin: 1rem;
+    margin: 1rem auto;
 
     justify-content: center;
     justify-items: center;
+
+    width: 70vw;
+    padding-bottom: 10rem;
+    z-index: 2;
 }
 
-#menuCard{
-    background-color: rgb(198, 198, 198);
+.menuCard{
+    background-color: rgb(250, 250, 250);
     padding: 0.5rem;
+    border: 1px solid rgb(199, 199, 199);
+    animation: comeDown ease-in both 2.5s ;
+ 
 }
+
+.menuCard:hover{
+    opacity: 0.1;
+    box-shadow: 5px 1px 30px;
+    filter: none;
+}
+
 .menuGrid img{
     grid-column: 1/-1;
     height: 32rem;
     width: 100%;
     object-fit: cover;
+    margin-bottom: 2rem;
+    border: 1px solid rgb(199, 199, 199);
+    
 }
+
 
 #menuLink{
     display: grid;
     padding: 1rem;
     grid-column: 2/-2;
     text-align: center;
-    font-size: 1.2vw;
+    font-size: 1.8rem;
     text-decoration: none;
     color: black;
+    font-family: 'Balsamiq Sans', cursive;
+    
+}
 
+.hoverPointer{
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.menuCard:hover .hoverPointer {
+    opacity: 1;
+}
+
+#fp-origami{
+    position: fixed;
+    width: 95vw;
+    transition: ease-in 2.5s;
+    opacity: 0.1;
+    left: 1rem;
+    top: -3rem;
+    z-index: 0;
+}
+
+
+.fp-timeline{
+    width: 100vw;
+    bottom: 0;
+    z-index: 2;
+    position: relative;
+}
+
+#fpTimeline{
+    z-index: 3;
+}
+
+@keyframes comeDown{
+0% {
+    opacity: 0;
+    transform: translateY(-2rem);
+    }
+85%{
+    opacity: 1;
+    }
+100%{
+    opacity: 1;
+    transform: scale(1);
+    }
 }
