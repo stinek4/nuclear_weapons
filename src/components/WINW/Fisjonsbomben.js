@@ -5,7 +5,7 @@ const Fisjonsbomben = () => {
 
     return(
         <div data-aos="fade-right" data-aos-anchor="#fbomb" className="fisjonsbomben">
-            <img data-aos="fade-right" data-aos-anchor="#fbomb" className="blueCrane" src=".//img/mini_blue.png" />
+            <img data-aos="fade-right" data-aos-anchor="#fbomb" className="blueCrane" src="/img/mini_blue.png" />
            <div className="WINWcard">
            <h2>Fisjonsbomben</h2>
                 <p className="WINWp">Fisjonsbomben er den enklere, og mindre kraftige, typen av de to atomvåpnene. 

@@ -9,7 +9,7 @@ const Menu = () => {
 
     return(
         <div className="menu">
-           <img id="fp-origami" src="./img/origami_tall.png" alt="origamifugler"></img>
+           <img id="fp-origami" src="/origami_tall.png" alt="origamifugler"></img>
         <div className="menuContent" gutter={40}>
             {menu.map(
                 (m, i) =>

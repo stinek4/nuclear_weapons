@@ -18,9 +18,9 @@ const Climate = () => {
                 </h3>
             </div>
             <div id="byFire" className="earthPicture">
-                        <img data-aos="fade-up"  data-aos-anchor="#byFire" className="by" src="https://image.flaticon.com/icons/svg/814/814587.svg" />
-                        <img data-aos="fade-down"  data-aos-anchor="#byFire" className="by" src="https://image.flaticon.com/icons/svg/814/814587.svg" />
-                        <img data-aos="fade-up"  data-aos-anchor="#byFire" className="by" src="https://image.flaticon.com/icons/svg/814/814587.svg" />
+                        <img data-aos="fade-up"  data-aos-anchor="#byFire" className="by" src="https://image.flaticon.com/icons/svg/814/814587.svg" alt="earth" />
+                        <img data-aos="fade-down"  data-aos-anchor="#byFire" className="by" src="https://image.flaticon.com/icons/svg/814/814587.svg" alt="earth" />
+                        <img data-aos="fade-up"  data-aos-anchor="#byFire" className="by" src="https://image.flaticon.com/icons/svg/814/814587.svg" alt="earth" />
                     </div>
             <div className="climateBody">
             <div data-aos="fade-up" data-aos-anchor="#klima" className="klimaCard">
