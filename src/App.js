@@ -33,9 +33,9 @@ function App() {
       <section className="fp-menu">
         <main>
           <div className="fp-menu">
-      <Router history={history} basename='/Laer-om-atomvaapen'>
+      <Router history={history} basename='/'>
         <Switch> 
-          <Route path='/FNforbud' exact component={FNforbud}/>
+          <Route path='/Laer-om-atomvaapen/FNforbud' exact component={FNforbud}/>
           <Route path='/' component={Menu}/>
           <Route path='/Humanitarian' exact component={Humanitarian}/>
           <Route path='/HvaErNW' exact component={HvaErNW}/>
