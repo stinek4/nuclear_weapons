@@ -36,7 +36,7 @@ function App() {
       <Router history={history} basename='/'>
         <Switch> 
           <Route path='/FNforbud' exact component={FNforbud}/>
-          <Route path='/' exact component={Menu}/>
+          <Route path='/' component={Menu}/>
           <Route path='/Humanitarian' exact component={Humanitarian}/>
           <Route path='/HvaErNW' exact component={HvaErNW}/>
           <Route path='/NWCost' exact component={NWCost}/>
