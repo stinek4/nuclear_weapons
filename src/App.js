@@ -35,13 +35,13 @@ function App() {
           <div className="fp-menu">
       <Router history={history} basename='/'>
         <Switch> 
-          <Route path='/FNforbud' exact component={FNforbud}/>
+          <Route path='Laer-om-atomvaapen/FNforbud' exact component={FNforbud}/>
           <Route path='/' component={Menu}/>
-          <Route path='/Humanitarian' exact component={Humanitarian}/>
-          <Route path='/HvaErNW' exact component={HvaErNW}/>
-          <Route path='/NWCost' exact component={NWCost}/>
-          <Route path='/CitiesAppeal' exact component={CitiesAppeal}/>
-          <Route path='/Climate' exact component={Climate}/>
+          <Route path='Laer-om-atomvaapen/Humanitarian' exact component={Humanitarian}/>
+          <Route path='Laer-om-atomvaapen/HvaErNW' exact component={HvaErNW}/>
+          <Route path='Laer-om-atomvaapen/NWCost' exact component={NWCost}/>
+          <Route path='Laer-om-atomvaapen/CitiesAppeal' exact component={CitiesAppeal}/>
+          <Route path='Laer-om-atomvaapen/Climate' exact component={Climate}/>
         </Switch> 
       </Router>
           </div>
