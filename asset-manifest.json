@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Laer-om-atomvaapen/static/css/main.438db984.chunk.css",
-    "main.js": "/Laer-om-atomvaapen/static/js/main.2e1d7205.chunk.js",
-    "main.js.map": "/Laer-om-atomvaapen/static/js/main.2e1d7205.chunk.js.map",
+    "main.js": "/Laer-om-atomvaapen/static/js/main.961ed35f.chunk.js",
+    "main.js.map": "/Laer-om-atomvaapen/static/js/main.961ed35f.chunk.js.map",
     "runtime-main.js": "/Laer-om-atomvaapen/static/js/runtime-main.1481a15d.js",
     "runtime-main.js.map": "/Laer-om-atomvaapen/static/js/runtime-main.1481a15d.js.map",
     "static/css/2.4707e12a.chunk.css": "/Laer-om-atomvaapen/static/css/2.4707e12a.chunk.css",
     "static/js/2.9a9083c6.chunk.js": "/Laer-om-atomvaapen/static/js/2.9a9083c6.chunk.js",
     "static/js/2.9a9083c6.chunk.js.map": "/Laer-om-atomvaapen/static/js/2.9a9083c6.chunk.js.map",
     "index.html": "/Laer-om-atomvaapen/index.html",
-    "precache-manifest.bb7811bd9e026ba798dc00112c9d8bc5.js": "/Laer-om-atomvaapen/precache-manifest.bb7811bd9e026ba798dc00112c9d8bc5.js",
+    "precache-manifest.ad5d9f44178807a68601b77bbea04f6d.js": "/Laer-om-atomvaapen/precache-manifest.ad5d9f44178807a68601b77bbea04f6d.js",
     "service-worker.js": "/Laer-om-atomvaapen/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/Laer-om-atomvaapen/static/css/2.4707e12a.chunk.css.map",
     "static/css/main.438db984.chunk.css.map": "/Laer-om-atomvaapen/static/css/main.438db984.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.4707e12a.chunk.css",
     "static/js/2.9a9083c6.chunk.js",
     "static/css/main.438db984.chunk.css",
-    "static/js/main.2e1d7205.chunk.js"
+    "static/js/main.961ed35f.chunk.js"
   ]
 }

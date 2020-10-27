@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Laer-om-atomvaapen/precache-manifest.bb7811bd9e026ba798dc00112c9d8bc5.js"
+  "/Laer-om-atomvaapen/precache-manifest.ad5d9f44178807a68601b77bbea04f6d.js"
 );
 
 self.addEventListener('message', (event) => {

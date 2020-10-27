@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f8d0b451a560ac38944ba2d1937abe54",
+    "revision": "14f86819092753147e353a158cd2ee6d",
     "url": "/Laer-om-atomvaapen/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Laer-om-atomvaapen/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "dccfb70414a9d0f33f86",
+    "revision": "c85065ebb69ad5d30514",
     "url": "/Laer-om-atomvaapen/static/css/main.438db984.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Laer-om-atomvaapen/static/js/2.9a9083c6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dccfb70414a9d0f33f86",
-    "url": "/Laer-om-atomvaapen/static/js/main.2e1d7205.chunk.js"
+    "revision": "c85065ebb69ad5d30514",
+    "url": "/Laer-om-atomvaapen/static/js/main.961ed35f.chunk.js"
   },
   {
     "revision": "49661b1bc58f39351e56",
